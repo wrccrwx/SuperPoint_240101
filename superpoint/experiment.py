@@ -59,8 +59,7 @@ def set_seed(seed):
 
 
 def get_num_gpus():
-    # return len(os.environ['CUDA_VISIBLE_DEVICES'].split(','))
-  return 2
+    return len(os.environ['CUDA_VISIBLE_DEVICES'].split(','))
 
 
 @contextmanager
